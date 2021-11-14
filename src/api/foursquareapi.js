@@ -15,6 +15,7 @@ const venue_search = async(query, callback) => {
                 callback('Unable to connect to foursquare servie', undefined)
             } else {
                 callback(undefined, { body })
+                
             }
     })
 }
